@@ -1,22 +1,37 @@
 About the Api : 
 It is a flask api that accepts image byte string as input along with the side of the passport which is front or back  in a json format and returns back the cropped and aligned picture of the passport as a image byte string only in the json format.
+
 Setup:
+
  app.py
+
  tests.py
+
  image_to_bytes.py
+
  crop_f
+
  new_img
+
  front_r
+
  back_r
-  project
+
+ project
+
 	 config
-		 config.ini
-	 functions
-		 functions.py
+
+		 config.ini		
+
 	 routes
+		
 		 routes.py
+	
 	 uploads
+	
 	 __init__.py
+
+
 app.py : It is the file that runs the api
 
 view.py : It has the routes of the api
